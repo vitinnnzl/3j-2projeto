@@ -15,6 +15,10 @@ async function quantidadeDeUsuarios(){
         marker: getCSS('--cor-primaria')
     }
     ]
+    const layout = {
+        plot_bgcolor: getCSS('cor-de-fundo'),
+        papar_bgcolor: getCSS('cor-de-fundo')
+    }
 
     const grafico = document.createElement('div');
     grafico.className = 'grafico';
